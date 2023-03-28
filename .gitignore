@@ -8,6 +8,13 @@
 
 *.txt
 
-*.DS_store
-
 *img_cache
+
+html-backup
+
+backup-css
+
+SCSS
+
+.DS_store
+
