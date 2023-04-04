@@ -1,8 +1,51 @@
+@import "partials/reset";
 @import "partials/fonts";
-@import "variables";
-@import "reset";
 
-header{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: basic;
+    src: url(../fonts/Basic\ Light.ttf);
+  }
+  
+@font-face {
+    font-family: basic;
+    src: url(../fonts/Basic\ Light.ttf);
+}
+
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 350%;
+	}
+	h3 {
+		font-size: 150%;
+	}
+	.btn-default {
+		font-size: 120%;
+	}
+}
+
+  html, body {
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+    color: #FFF;
+  }
+  
+  #home {
+    background-image: url('../media/img2.wallspic.com-orange-brown-colorfulness-amber-pink-1404x3040.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    display: table;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+  }
+  
+  header{
     width: 100%;
     height: 200px;
     background-image: url('../media/reel2.png');
@@ -10,9 +53,134 @@ header{
     background-size: cover;
     padding: 30px;
     padding-left: 30px;
-    .logopablo{
-        height: 150px;
-        margin: auto;}
+  }
+  
+  .logopablo{
+    height: 150px;
+    margin: auto;
+  }
+
+  .landing-text {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .btn-default {
+    background-color: #FFF;
+    color: #36342F;
+    font-size: 160%;
+    &:hover {
+      color: #FFF;
+      background-color: #36342F;
+    }
+  }
+  
+  .navbar{
+    background-color: rgb(255, 128, 0);
+    /* padding: 5px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;     */
+    ul {
+      text-align: center;
+      color: white;
+      .nav-item {
+        padding: 10px 20px;
+        display: inline;
+        a {
+          color: white;
+        }
+      }
+    }
+  }
+    /* textos */
+    h1{
+        color: rgb(80, 80, 80);
+        text-align: center;
+        padding: 20px;
+        font-style: bold;
+        font-weight: 2000;
+      }
+      
+      h2#contacto{
+        padding: 10px;
+      }
+      
+      h2{
+        color: rgb(150, 150, 150);
+        text-align: center;
+      }
+      
+      h5{
+        color: orange;
+      }
+      
+      /* contenido */
+      .imgpagina{
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        width: 700px;
+      }
+      
+      .videocontrol{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 150px;
+      }
+      
+      .serviciosvideo{
+        display: block;
+        margin: auto;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .mapas{
+        display: block;
+        position: relative;
+        width: 400px;
+        margin-bottom: 40px;
+        margin-top: 40px;
+      }
+      
+      .formulariocontacto{
+        padding-left: 20px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+      }
+    
+      .formulariocajatexto{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    // galeria
+    .galeria {
+      display: flex;
+      align-items: center;
+      padding: 30px;
+      
+      // card
+      .card {
+        padding: 20px;
+      }
+    }
+    
+    // footer
+    .footer-container {
+      background-color: rgb(255, 128, 0);
+      padding: 20px;
+    
+      // footertext
+      .footertext {
+        text-align: center;
+        color: white;
+      }
     }
 
-    
