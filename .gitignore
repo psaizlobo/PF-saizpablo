@@ -2,8 +2,6 @@
 
 *.backup-css
 
-*.scss
-
 *.mp4
 
 *.txt
@@ -13,8 +11,6 @@
 html-backup
 
 backup-css
-
-SCSS
 
 .DS_store
 

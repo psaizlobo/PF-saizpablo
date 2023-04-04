@@ -11,22 +11,12 @@
 }
 
 
+
 @font-face {
     font-family: basic;
     src: url(../fonts/Basic\ Light.ttf);
 }
 
-@media (max-width: 768px) {
-	h1 {
-		font-size: 350%;
-	}
-	h3 {
-		font-size: 150%;
-	}
-	.btn-default {
-		font-size: 120%;
-	}
-}
 
 /* cabecera y menu */
 
@@ -60,6 +50,18 @@ html, body {
 	background-color: #36342F;
 }
 
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 350%;
+	}
+	h3 {
+		font-size: 150%;
+	}
+	.btn-default {
+		font-size: 120%;
+	}
+}
 
 header{
     width: 100%;
@@ -165,15 +167,12 @@ h5{
     display: block;
     position: relative;
     width: 400px;
-    margin-bottom: 40px;
-    margin-top: 40px;
+    margin-bottom: 180px;
 }
 
 .formulariocontacto{
   
     padding-left: 20px;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 
 .formulariocajatexto{
